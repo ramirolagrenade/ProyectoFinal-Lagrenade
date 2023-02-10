@@ -1,0 +1,66 @@
+[
+    {
+        "id":1,
+        "nombre":"Kimetsu no Yaiba",
+        "genero":"Accion",
+        "precio": 1300,
+        "imagen": "./Imagen/game1.jpg",
+        "cantidad": 1
+    },
+    {
+        "id":2,
+        "nombre":"Fifa 23",
+        "genero":"Simulacion",
+        "precio": 1800,
+        "imagen": "./Imagen/game2.jpg",
+        "cantidad": 1
+    },
+    {
+        "id":3,
+        "nombre":"Hollow Knight",
+        "genero":"Aventura",
+        "precio": 1300,
+        "imagen": "./Imagen/game3.jpg",
+        "cantidad": 1
+    },
+    {
+        "id":4,
+        "nombre":"The Binding Of Isaac",
+        "genero":"Roguelike",
+        "precio": 1000,
+        "imagen": "./Imagen/game5.jpg",
+        "cantidad": 1
+    },
+    {
+        "id":5,
+        "nombre":"God of War",
+        "genero":"Accion",
+        "precio": 1900,
+        "imagen": "./Imagen/game4.jpg",
+        "cantidad": 1
+    },
+    {
+        "id":6,
+        "nombre":"Forza Horizon",
+        "genero":"Simulacion",
+        "precio": 1600,
+        "imagen": "./Imagen/game6.jpg",
+        "cantidad": 1
+    },
+    {
+        "id":7,
+        "nombre":"Hades",
+        "genero":"Roguelike",
+        "precio": 1300,
+        "imagen": "./Imagen/game7.jpg",
+        "cantidad": 1
+    },
+    {
+        "id":8,
+        "nombre":"Elden Ring",
+        "genero":"Aventura",
+        "precio": 2300,
+        "imagen": "./Imagen/game8.jpg",
+        "cantidad": 1
+    }
+]

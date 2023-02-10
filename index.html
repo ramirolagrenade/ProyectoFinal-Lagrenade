@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Little Pixel - Inicio</title>
+    <link rel="icon" href="Imagen/Icono.ico">
+    <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="https://kit.fontawesome.com/293588598f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</head>
+
+
+<body>
+    <header class="header container-fluid text-center">
+        <div class="align-items-center mt-3">
+            <div class="d-flex justify-content-center">
+                <img class="img-menu" src="Imagen/Icono.ico" alt="Logo" title="Logo">
+                <h1 class="titulo-menu">The Little Pixel</h1>
+            </div>
+            <div class="col  navegador">
+                <div class="menu">
+                 <button id="cesta-carrito"><i class="fas fa-shopping-cart"></i><p> </p><span id="contador-carrito">0</span></button>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col-12 align-items-center">
+                <h1 class="titulo">INICIO</h1>
+            </div>
+        </div>
+    </div>
+
+    <main id="producto-contenedor"></main>
+
+    <footer class="container-fluid ">
+        <div class="row text-center footer pt-2">
+            <div class="col-md-6 align-items-center sponsor">
+                <img src="Imagen/logo.jpg" alt="Logo">
+
+                <img src="Imagen/Sponsor1.png" alt="Sponsor">
+
+                <img src="Imagen/Sponsor2.png" alt="Sponsor">
+
+                <img src="Imagen/Sponsor3.png" alt="Sponsor">
+
+            </div>
+            <div class="col-md-6 align-items-center redes">
+                <h4>SIGUENOS</h4>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+            <div class="col-12 align-items-center pie-de-pagina">
+                <small>&copy; 2022 <b>The Little Pixel</b> -- Todos los derechos reservados.</small>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+          <h3>Carrito</h3>
+          <button id="btn-cerrar-carrito"><i class="fas fa-times-circle"></i></button>
+          <div id="carrito-contenedor"> 
+          </div>
+          <p class="precioProducto">Precio total(más IVA): $<span id="precioTotal"></span></p>
+        </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/inicio.js"></script>
+    <script src="./js/eventList.js"></script>
+    <script src="./js/carrito.js"></script>
+    <script src="./js/index.js"></script>
+</body>

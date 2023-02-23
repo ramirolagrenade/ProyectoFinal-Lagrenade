@@ -177,6 +177,25 @@ select {
   color: red;
 }
 
+.boton-compra{
+  background-color: #0d2033;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  padding: 0px 10px;
+  border-radius: 5px;
+}
+
+.boton-compra:focus{
+  background-color: #0d2033;
+}
+
+.boton-compra:hover {
+  cursor: pointer;
+  background-color: #000c18;
+  color: red;
+}
+
 .boton-eliminar:focus {
   outline: none;
 }
